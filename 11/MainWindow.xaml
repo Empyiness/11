@@ -1,0 +1,24 @@
+﻿<Window x:Class="_11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_11"
+        mc:Ignorable="d"
+        Height="330" Width="477" ResizeMode="CanMinimize">
+    <Grid Margin="20">
+        <StackPanel>
+            <TextBlock Text="String:" Width="45" Height="25" Margin="0,0,0,-25" HorizontalAlignment="Left"></TextBlock>
+            <TextBox x:Name="StringBox" Width="375" Height="25" Margin="45,0,0,20" HorizontalAlignment="Left"></TextBox>
+            <TextBlock Text="Regex:" Width="45" Height="25" Margin="0,0,0,-25" HorizontalAlignment="Left"></TextBlock>
+            <TextBox x:Name="RegexBox" Width="375" Height="25" Margin="45,0,0,20" HorizontalAlignment="Left"></TextBox>
+            <TextBlock Text="Result:" Width="45" Height="25" Margin="0,0,0,-25" HorizontalAlignment="Left"></TextBlock>
+            <TextBox x:Name="ResultBox" Width="375" Height="25" Margin="45,0,0,20" HorizontalAlignment="Left" IsReadOnly="True"></TextBox>
+            <Button Content="Task 1" Width="200" Height="25" Margin="0,0,0,-25" HorizontalAlignment="Left" Click="Task1"></Button>
+            <Button Content="About" Width="200" Height="25" Margin="220,0,0,20" HorizontalAlignment="Left" Click="About"></Button>
+            <Button Content="Close" Width="200" Height="25" Margin="220,0,0,-25" HorizontalAlignment="Left" Click="Close"></Button>
+            <Button Content="Task 2" Width="200" Height="25" Margin="0,0,0,20" HorizontalAlignment="Left" Click="Task2"></Button>
+            <Button Content="Find" Width="200" Height="25" Margin="0,0,0,20" HorizontalAlignment="Left" Click="Find"></Button>
+        </StackPanel>
+    </Grid>
+</Window>
